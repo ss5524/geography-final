@@ -1,0 +1,279 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+<body>
+  <!-- Title Header -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Geography Game</h1>
+      <p><em>How well do you know your state shapes?</em></p>
+    </div>
+  </div>
+
+  <!-- Instructions -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3>Instructions:</h3>
+        <ol>
+          <li>Look at the state shape outline</li>
+          <li>Select the <strong>correct state</strong> out of the three state options listed</li>
+          <li>If you need a hint, click on the state shape image, and you can find the state shape within a full map of the USA.</li>
+          <li><strong>New feature!</strong> You can check your individual answers before submitting your final results below.</li>
+        </ol>
+      </div>
+    </div>
+    <hr />
+
+    <!-- Quiz -->
+    <div class="row">
+      <div class="col-xs-12">
+        <h4>Which state is this?</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <label for="Texas">
+          <input type="radio" name="TeNeIo" id="Texas" value="Texas"> Texas
+        </label>
+        <label for="Nevada">
+          <input type="radio" name="TeNeIo" id="Nevada" value="Nevada"> Nevada
+        </label>
+        <label for="Iowa">
+          <input type="radio" name="TeNeIo" id="Iowa" value="Iowa"> Iowa
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="https://imgur.com/gallery/PAmxjH1" target="blank"><img src="https://i.etsystatic.com/20162739/r/il/af59ba/1908256260/il_794xN.1908256260_e97g.jpg" alt="Question One"></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <button type="button" onclick="checkNevada()">Check Answer</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <h4>Which state is this?</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <label for="Washington">
+          <input id="Washington" type="radio" name="WaNYMo" value="Washington"> Washington
+        </label>
+        <label for="New York">
+          <input id="New York" type="radio" name="WaNYMo" value="New York"> New York
+        </label>
+        <label for="Montana">
+          <input id="Montana" type="radio" name="WaNYMo" value="Montana"> Montana
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="https://imgur.com/gallery/PAmxjH1" target="blank"><img src="https://i.etsystatic.com/20162739/r/il/6f582f/1908813158/il_794xN.1908813158_aker.jpg" alt="Question Two"></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <button type="button" onclick="checkWash()">Check Answer</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <h4>Which state is this?</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <label for="Delaware">
+          <input id="Delaware" type="radio" name="DeRIAr" value="Delaware"> Delaware
+        </label>
+        <label for="Rhode Island">
+          <input id="Rhode Island" type="radio" name="DeRIAr" value="Rhode Island"> Rhode Island
+        </label>
+        <label for="Arizona">
+          <input id="Arizona" type="radio" name="DeRIAr" value="Arizona"> Arizona
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="https://imgur.com/gallery/PAmxjH1" target="blank"><img src="https://i.etsystatic.com/20162739/r/il/3d3e82/1955824705/il_794xN.1955824705_scnr.jpg" alt="Is this Rhode Island or Delaware?"></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <button type="button" onclick="checkRhode()">Check Answer</button>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-xs-4">
+        <h4>Which state is this?</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <label for="Wyoming">
+          <input id="Wyoming" type="radio" name="WyNeMi" value="Wyoming"> Wyoming
+        </label>
+        <label for="Nevada2">
+          <input id="Nevada2" type="radio" name="WyNeMi" value="Nevada"> Nevada
+        </label>
+        <label for="Minnesota">
+          <input id="Minnesota" type="radio" name="WyNeMi" value="Minnesota"> Minnesota
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="https://imgur.com/gallery/PAmxjH1" target="blank"><img src="https://i.etsystatic.com/20162739/r/il/b534d5/1908253076/il_794xN.1908253076_qgo4.jpg" alt="Question 4"></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <button type="button" onclick="checkMinn()">Check Answer</button>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-xs-4">
+        <h4>Which state is this?</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <label for="West Virginia">
+          <input id="West Virginia" type="radio" name="WeViTe" value="West Virginia"> West Virginia
+        </label>
+        <label for="Virginia">
+          <input id="Virginia" type="radio" name="WeViTe" value="Virginia"> Virginia
+        </label>
+        <label for="Tennessee">
+          <input id="Tennessee" type="radio" name="WeViTe" value="Tennessee"> Tennessee
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="https://imgur.com/gallery/PAmxjH1" target="blank"><img src="https://i.etsystatic.com/20162739/r/il/7fb810/1956353573/il_794xN.1956353573_l5i3.jpg" alt="Question 5"></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <button type="button" onclick="checkWestVirg()">Check Answer</button>
+      </div>
+    </div>
+    
+    <!-- Test review Form -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              Additional Information
+            </div>
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <label for="name">Your Name:</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Full Name"><br>
+
+                  <div class="row">
+                    <div class="col-xs-8">
+                      <div class="form-group">
+                        <label for="difficulty">Difficulty of this test:</label>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-4">
+                          <label><input id="difficulty1" type="checkbox" name="difficulty" value="Easy"> Easy</label>
+                        </div>
+                        <div class="col-xs-4">
+                          <label><input id="difficulty2" type="checkbox" name="difficulty" value="Moderate"> Moderate</label>
+                        </div>
+                        <div class="col-xs-4">
+                          <label><input id="difficulty3" type="checkbox" name="difficulty" value="Hard"> Hard</label>
+                        </div>
+                      </div><br>
+                      <div class="row">
+                        <div class="col-xs-8">
+                          <div class="form-group">
+                            <label for="recommendation">Would you recommend this test to friends?</label>
+                            <select class="form-control" id="recommendation">
+                              <option disabled id="choose" selected>Choose One</option>
+                              <option id="yes" value="Yes">Yes</option>
+                              <option id="maybe" value="Maybe">Maybe</option>
+                              <option id="no" value="No">No</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <button onclick="results()">Submit Results</button> </div>
+          </div>
+
+          <div class="col-xs-12">
+            <h5>Test Review Results: <br></h5>
+            <h6><em>Name: </em><br><span id="nameResult"></span><br><br>
+              <em>Question #1: </em><br><span id="teneioResult"></span><br><br>
+              <em>Question #2: </em><br><span id="wanymoResult"></span><br><br>
+              <em>Question #3: </em><br><span id="deriarResult"></span><br><br>
+              <em>Question #4: </em><br><span id="wynemiResult"></span><br><br>
+              <em>Question #5: </em><br><span id="weviteResult"></span><br><br>
+              <em>How difficult was this test? </em><br><span id="diffResult"></span><br><br>
+              <em>Would you recommend this game to friends? </em><br><span id="recResult"></span><br><br>
+              <em>Score</em><br><span id="scoreResult"></span><br>
+            </h6>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+              <button onclick="reset()">Reset Answers</> </div>
+          </div>
+      </div>
+      <hr>
+
+      <!-- Closing Section -->
+      <div class="container-bottom">
+        <div class="row">
+          <div class="col-xs-12">
+            <em>Copyright Steve Sholdra 2020</em>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <em>The non-Bootstrap version of this game can be found <a href="https://codepen.io/ss5524/pen/NWGZaQp" target="_blank">here</a>.</em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

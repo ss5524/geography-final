@@ -1,0 +1,49 @@
+.jumbotron {
+  background: #f0ffff;
+  text-align: center;
+}
+.container-bottom {
+  text-align: center;
+}
+h1 {
+  font-family: "Tangerine", serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+h3 {
+  font-family: "montserrat", serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #aaa;
+}
+h4 {
+  font-family: "montserrat", serif;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px #aaa;
+}
+h5 {
+  font-family: "montserrat", serif;
+  font-size: 20px;
+}
+h6 {
+  font-family: "montserrat", serif;
+  font-size: 15px;
+}
+p {
+  color: #0000cd;
+  font-family: "montserrat", serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #aaa;
+}
+img {
+  width: 200px;
+  margin: 10px;
+}
+button {
+  background-color: #a9a9a9;
+  border-color: blue;
+  border-radius: 50px;
+  margin: 20px 20px 20px 20px;
+  padding: 15px;
+  font-family: montserrat;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px #aaa;
+}
