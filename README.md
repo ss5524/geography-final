@@ -4,7 +4,7 @@
 ---
 **Demonstration page:** https://ss5524.github.io/geography-final/
 
-**YouTube Reflection:** ==TO BE ENTERED==
+**YouTube Reflection:** https://youtu.be/GCSsAMFa3Pw
 
 **Learning Experience Description:** 
 There are many techniques and technologies to help teach and instill knowledge about US Geography. However, many of these digital technologies rely on “point-and-click” learning: in one example, students are given a state name, and asked to identify that state on a map that already shows state outlines. This can lead to an overreliance on stored knowledge, where students rote memorize where the state locations are on a complete nationwide map, without conceptualizing new knowledge about the actual state shapes and how they meld to form the borders within the USA.
