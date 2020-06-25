@@ -26,5 +26,5 @@ The user experience is as follows:
     * The checkbox for the difficulty question will uncheck
     * The dropdown for the referral question will return to the disabled "Choose One" option
     * The printed answers will blank out at the bottom of the screen
-    * The printed score will reset to 0, and the percentage sign will disappear (so as not to cause confusion that the user has just scored a 0%)
+    * The printed score will reset to 0, and the percentage sign will disappear (so as not to cause confusion that the user has just scored 0%)
 
